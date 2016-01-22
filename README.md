@@ -12,8 +12,7 @@ Technical interview tasks
   - resize
   - size
   - isEmpty
-
-  - test cases >
+  - test cases:
     - can create with size, and size is correct
     - set will grow as needed
     - can put then get (contains after)
