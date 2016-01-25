@@ -9,4 +9,10 @@ public class SetTest {
 	public void testAssertTrue() {
 		Assert.assertEquals(false, true);
 	}
+
+	@Test
+	public void testEmptyWithInitalized (){
+		Set emptySet = new Set<String, V> ();
+		Assert.assertEquals(0, emptySet.size);
+	}
 }
